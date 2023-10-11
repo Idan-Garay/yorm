@@ -4,10 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-bun.lockb
-yarn.lock
-package-lock.json
-.DS_Store
+pnpm-lock.yaml
 
 # testing
 /coverage
@@ -37,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/test-results/
+/playwright-report/
+/playwright/.cache/
